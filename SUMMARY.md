@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Introduction:](README.md)
 * [Creational Pattern](creational-pattern/README.md)
   * Abstract Factory Pattern
 
