@@ -47,6 +47,62 @@ The **Builder** provides a serious of interfaces to build the **parts of** **Pro
 ### Golang Example:
 
 ```go
+package main
+
+import "fmt"
+
+type Product struct {
+	partA int
+	partB string
+	partC []byte
+}
+
+type Builder interface {
+	BuildPartA(int)
+	BuildPartB(string)
+	BuildPartC(string)
+	GetProduct() Product
+}
+
+type NormalBuilder struct {
+	partA int
+	partB string
+	partC []byte
+}
+
+func (b *NormalBuilder) BuildPartA(v int) {
+	b.partA = v
+}
+
+func (b *NormalBuilder) BuildPartB(str string) {
+	b.partB = "Part B:" + str
+}
+
+func (b *NormalBuilder) BuildPartC(str string) {
+	b.partC = []byte(str)
+}
+
+func (b *NormalBuilder) GetProduct() Product {
+	return Product{
+		partA: b.partA,
+		partB: b.partB,
+		partC: b.partC,
+	}
+}
+
+func fakeProductDirector(builder Builder) Product {
+	builder.BuildPartA(10)
+	builder.BuildPartB("Hello World")
+	builder.BuildPartC("Hello World Again")
+	return builder.GetProduct()
+}
+
+func main() {
+	normalBuilder := &NormalBuilder{}
+	fakeProduct := fakeProductDirector(normalBuilder)
+
+	fmt.Println("The Product is:", fakeProduct)
+}
 
 ```
 
