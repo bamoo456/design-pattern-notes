@@ -44,7 +44,7 @@ The **Builder** provides a serious of interfaces to build the **parts of** **Pro
 
 
 
-### Golang Example:
+### Code Example - Golang:
 
 ```go
 package main
