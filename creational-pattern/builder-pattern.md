@@ -1,6 +1,6 @@
 # Builder Pattern
 
-### Instruction:
+## Instruction:
 
 Separate the construction of a complex object from its representation so that the same construction process can create different representation.
 
@@ -10,7 +10,7 @@ Separate the construction of a complex object from its representation so that th
 
 
 
-### Motivation & When should use builder pattern
+## Motivation & When should use builder pattern
 
 * Decouple the logic of representation and construction. 
 * If the algorithm for creating complex object should be independent, and the client does not need to know how a object should be created. 
@@ -44,7 +44,7 @@ The **Builder** provides a serious of interfaces to build the **parts of** **Pro
 
 
 
-### Code Example - Golang:
+## Code Example - Golang:
 
 ```go
 package main

@@ -4,8 +4,8 @@
 * [Creational Pattern](creational-pattern/README.md)
   * [Abstract Factory Pattern](creational-pattern/abstract-factory-pattern.md)
   * [Builder Pattern](creational-pattern/builder-pattern.md)
-  * Factory Method
-  * Prototype
-  * Singleton
+  * [Factory Method](creational-pattern/factory-method.md)
+  * [Prototype](creational-pattern/undefined.md)
+  * [Singleton](creational-pattern/singleton.md)
 * Structural
 
