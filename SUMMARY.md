@@ -8,4 +8,7 @@
   * [Prototype](creational-pattern/undefined.md)
   * [Singleton](creational-pattern/singleton.md)
 * Structural
+* Behavior
+* Golang Pattern
+  * [Inheritence](golang-pattern/inheritence.md)
 
