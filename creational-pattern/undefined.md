@@ -36,6 +36,71 @@ Creates a new object by asking a prototype to clone itself.
 ## Code Example - Golang
 
 ```go
+package main
+
+import "fmt"
+
+const (
+	NoShape = iota // 0
+	Circle
+	Square
+	Retangle
+)
+
+type PrototypeWidge interface {
+	init(int)
+	Clone() *Widge
+}
+
+type UIWdige interface {
+	Render()
+}
+
+type PrototypeWidgeFactory interface {
+	NewWidge(shape int) *Widge
+}
+
+type Widge struct {
+	shape int
+}
+
+func (w *Widge) init(shape int) {
+	w.shape = shape
+}
+
+func (w *Widge) Clone() *Widge {
+	return &Widge{w.shape}
+}
+
+func (w *Widge) Render() {
+	fmt.Printf("Rendering [%d] Widge\n", w.shape)
+}
+
+type UIWidgeFactory struct {
+	protoWidge PrototypeWidge
+}
+
+func (f UIWidgeFactory) NewWidge(shape int) UIWdige {
+	widge := f.protoWidge.Clone()
+	switch shape {
+	case Circle:
+		widge.init(Circle)
+	case Square:
+		widge.init(Square)
+	case Retangle:
+		widge.init(Retangle)
+	default:
+		widge.init(NoShape)
+	}
+	return widge
+}
+
+func main() {
+	var f = UIWidgeFactory{&Widge{}}
+
+	f.NewWidge(Circle).Render()
+	f.NewWidge(Square).Render()
+}
 
 ```
 
