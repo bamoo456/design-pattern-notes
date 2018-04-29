@@ -2,11 +2,15 @@
 
 ## Introduction:
 
-
+Specify the kinds of objects to create using a prototypical instance, and create new objet by copying this prototype.
 
 {% hint style="info" %}
-Abstract factory is for creating abstract interface, not concrete class.
+**Prototype** and **Abstract Factory** pattern are competing patterns in some ways. They can also be used together.
+
+Design with **Composite** or** Decorater**  Pattern can also benefit from the **Prototype** pattern
 {% endhint %}
+
+
 
 
 
