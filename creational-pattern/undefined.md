@@ -35,6 +35,8 @@ Creates a new object by asking a prototype to clone itself.
 
 ## Code Example - Golang
 
+#### example 1: Prototype factory
+
 ```go
 package main
 
@@ -76,6 +78,10 @@ func (w *Widge) Render() {
 	fmt.Printf("Rendering [%d] Widge\n", w.shape)
 }
 
+func NewUIWidgeFactory(w PrototypeWidge) UIWidgeFactory {
+    return &UIWidgeFactory{w}
+}
+
 type UIWidgeFactory struct {
 	protoWidge PrototypeWidge
 }
@@ -100,6 +106,115 @@ func main() {
 
 	f.NewWidge(Circle).Render()
 	f.NewWidge(Square).Render()
+}
+```
+
+#### example 2: use prototype in db connection
+
+```go
+package main
+
+type ConnPrototype interface {
+	Clone() RedisCmd
+}
+
+type RedisCmd interface {
+	Set() error
+	Get() []byte
+	Del() error
+	// ...
+}
+
+type SingleRedisConn struct {
+	user string
+	pass string
+	addr string
+}
+
+func (r SingleRedisConn) connect() error {
+	// connect to single redis server
+	return nil
+}
+
+func (r SingleRedisConn) Clone() RedisCmd {
+	conn := &SingleRedisConn{r.user, r.pass, r.addr}
+	conn.connect()
+	return conn
+}
+
+func (r SingleRedisConn) Set() error {
+	return nil
+}
+
+func (r SingleRedisConn) Get() []byte {
+	return []byte{}
+}
+
+func (r SingleRedisConn) Del() error {
+	return nil
+}
+
+type ClusterRedisConn struct {
+	user  string
+	pass  string
+	addrs []string
+}
+
+func (r ClusterRedisConn) connect() error {
+	// connect to redis cluster
+	return nil
+}
+
+func (r ClusterRedisConn) Clone() RedisCmd {
+	addrs := append([]string{}, r.addrs...)
+	conn := &ClusterRedisConn{r.user, r.pass, addrs}
+	conn.connect()
+	return conn
+}
+
+func (r ClusterRedisConn) Set() error {
+	return nil
+}
+
+func (r ClusterRedisConn) Get() []byte {
+	return []byte{}
+}
+
+func (r ClusterRedisConn) Del() error {
+	return nil
+}
+
+func ExecuteSet(conn ConnPrototype) error {
+	redisCmd := conn.Clone()
+	return redisCmd.Set()
+}
+
+func ExecuteGet(conn ConnPrototype) []byte {
+	redisCmd := conn.Clone()
+	return redisCmd.Get()
+}
+
+func ExecuteDel(conn ConnPrototype) error {
+	redisCmd := conn.Clone()
+	return redisCmd.Del()
+}
+
+// Factory Methods
+func NewSingleRedisConn() *SingleRedisConn {
+	return &SingleRedisConn{}
+}
+func NewClusterRedisConn() *ClusterRedisConn {
+	return &ClusterRedisConn{}
+}
+
+
+func main() {
+	conn := NewSingleRedisConn()
+
+	// clone the conn, and execute commands
+	ExecuteSet(conn)
+	ExecuteGet(conn)
+	ExecuteDel(conn)
 }
 
 ```
