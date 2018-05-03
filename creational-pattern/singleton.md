@@ -23,6 +23,46 @@ defines an Instance operation that lets clients access its unique instance.
 ## Code Example - Golang
 
 ```go
+package main
+
+import (
+	"fmt"
+	"sync"
+	"time"
+)
+
+var singleton singletonStore = singletonStore{}
+
+func Get() *UniqueProduct {
+	return singleton.Instance()
+}
+
+type UniqueProduct struct {
+	name string
+}
+
+type singletonStore struct {
+	once     sync.Once
+	instance *UniqueProduct
+}
+
+func (s *singletonStore) Instance() *UniqueProduct {
+	s.once.Do(func() {
+		// initialize the unique product
+		name := fmt.Sprintf("Product-time-%s", time.Now().Format(time.RFC3339Nano))
+		s.instance = &UniqueProduct{name}
+	})
+	// return the store's unique product
+	return s.instance
+}
+
+func main() {
+	product := Get()
+
+	fmt.Println("The product:", product)
+	fmt.Println("The product:", product)
+	fmt.Println("The product:", product)
+}
 
 ```
 
