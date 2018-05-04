@@ -7,6 +7,8 @@
 * Builder has the factory object building a complex object using specific protocols
 * Prototype has the factory object building a product by copying a prototype object.
 * Decide which pattern to be used depends on many factors, often, designs start with the Factory Method and involve toward the other Creation Patterns.
+* Singleton normally used with other Creation Patterns as well.
+* Creational Patterns are not alway competitive with each other, sometimes they can work together.
 
 ## Brief Example:
 
@@ -34,4 +36,38 @@ func main() {
 }
 
 ```
+
+
+
+#### Abstract Factory:
+
+```text
+
+```
+
+
+
+#### Builder:
+
+```text
+
+```
+
+
+
+#### Prototype:
+
+```text
+
+```
+
+
+
+#### Singleton
+
+```text
+
+```
+
+
 
