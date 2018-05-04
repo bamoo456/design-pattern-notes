@@ -2,51 +2,36 @@
 
 ## Summary:
 
-#### Creational Patterns are not exclusive:
+* Abstract Factory, Builder, Prototype all involve creating new "factory object". 
+* Abstract Factory has the factory object producing objects of several classes.
+* Builder has the factory object building a complex object using specific protocols
+* Prototype has the factory object building a product by copying a prototype object.
+* Decide which pattern to be used depends on many factors, often, designs start with the Factory Method and involve toward the other Creation Patterns.
 
-#### Many factors decide which pattern should be adapted
-
-#### Often, designs start out using Factory Method and evolve toward the other creational patterns as the designer discovers where more flexibility is needed.
-
-
-
-## Pattern Template
+## Brief Example:
 
 #### Factory Method:
-
-The basic and most simple pattern for creating objects
 
 ```go
 package main
 
-// usually with below patterns
-type factory struct {}
+type GraphicFactory struct {}
 
-func (f factory) NewProductA() {}
+func (f GraphicFactory) NewLine() {}
 
-func (f factory) NewProductB() {}
+func (f GraphicFactory) NewCircle() {}
 
-func (f factory) NewProductC() {}
+func (f GraphicFactory) NewSquare() {}
+
+// ...
+
 
 func main() {
+    factory := GraphicFactory{}
+    f.NewLine()
+    f.NewCircle()
+    f.NewSquare()
 }
-```
-
-#### Abstract Factory:
-
-```text
-
-```
-
-#### Builder:
-
-```text
-
-```
-
-#### Prototype:
-
-```text
 
 ```
 
