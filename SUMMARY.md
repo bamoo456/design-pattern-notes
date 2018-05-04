@@ -7,7 +7,7 @@
   * [Factory Method](creational-pattern/factory-method.md)
   * [Prototype](creational-pattern/undefined.md)
   * [Singleton](creational-pattern/singleton.md)
-  * Summary of Creational Patterns
+  * [Summary of Creational Patterns](creational-pattern/summary-of-creational-patterns.md)
 * Structural
 * Behavior
 * Golang Pattern
