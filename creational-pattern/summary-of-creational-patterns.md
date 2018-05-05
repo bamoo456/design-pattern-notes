@@ -125,7 +125,51 @@ func (b *ShosesBuilder) Product() Product {
 
 #### Prototype:
 
-```text
+```go
+package main
+
+type LinePrototype interface {
+    Clone() Line
+}
+
+type CirclePrototype interface {
+    Clone() Circle
+}
+
+type SquarePrototype interface {
+    Clone() Square
+}
+
+type Line struct {}
+
+type Circle struct {}
+
+type Square struct {}
+
+type GraphicFactory struct {
+    line   LinePrototype
+    circle CirclePrototype
+    square SquarePrototype
+}
+
+func (f GraphicFactory) Init(l LinePrototype,c CirclePrototype,s SquarePrototype) {
+    f.line = l
+    f.circle = c
+    f.square = s
+}
+
+func (f GraphicFactory) NewLine() Line {
+    return f.line.Clone()
+}
+
+func (f GraphicFactory) NewCircle() Circle {
+    return f.circle.Clone()
+}
+
+func (f GraphicFactory) NewSquare() Square {
+    return f.square.Clone()
+}
+
 
 ```
 
