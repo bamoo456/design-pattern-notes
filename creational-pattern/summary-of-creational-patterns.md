@@ -79,7 +79,45 @@ func (f NormalSquareFactory) NewSquare() Square {
 
 #### Builder:
 
-```text
+```go
+package main
+
+type ProductBuilder interface {
+	BuildContent()
+	BuildBox()
+	Product()
+}
+
+type Product interface {
+	Ship()
+}
+
+type Shoses struct{}
+
+type Box struct{}
+
+type ShoesProduct struct {
+	shoses Shoses
+	box    Box
+}
+
+func (p ShoesProduct) Ship() {}
+
+type ShosesBuilder struct {
+	product ShoesProduct
+}
+
+func (b *ShosesBuilder) BuildContent() {
+	b.product.shoses = Shoses{}
+}
+
+func (b *ShosesBuilder) BuildBox() {
+	b.product.box = Box{}
+}
+
+func (b *ShosesBuilder) Product() Product {
+	return b.product
+}
 
 ```
 
