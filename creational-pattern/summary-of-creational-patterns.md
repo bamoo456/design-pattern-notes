@@ -177,9 +177,5 @@ func (f GraphicFactory) NewSquare() Square {
 
 #### Singleton
 
-```text
-
-```
-
-
+[Check Here for the example](https://georgenotes.gitbook.io/design-pattern/creational-pattern/singleton#code-example-golang)
 
