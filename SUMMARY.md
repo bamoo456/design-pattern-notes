@@ -9,9 +9,27 @@
   * [Singleton](creational-pattern/singleton.md)
   * [Summary of Creational Patterns](creational-pattern/summary-of-creational-patterns.md)
 * Structural
-  * Adapter  \(Wrapper\)
-  * Bridge
+  * [Adapter  \(Wrapper\)](structural/adapter-wrapper.md)
+  * [Bridge](structural/bridge.md)
+  * [Composite](structural/composite.md)
+  * [Decorator](structural/decorator.md)
+  * [Facade](structural/facade.md)
+  * [Flyweight](structural/flyweight.md)
+  * [Proxy](structural/proxy.md)
+  * Summary of Structural Patterns
 * Behavior
+  * [Chain of Responsibility](behavior/chain-of-responsibility.md)
+  * [Command](behavior/command.md)
+  * [Interpreter](behavior/interpreter.md)
+  * [Iterator](behavior/iterator.md)
+  * [Mediator](behavior/mediator.md)
+  * [Memento](behavior/memento.md)
+  * [Observer](behavior/observer.md)
+  * [State](behavior/state.md)
+  * [Strategy](behavior/strategy.md)
+  * [Template Method](behavior/template-method.md)
+  * [Visitor](behavior/visitor.md)
+  * Summary of Behavior Patterns
 * Golang Pattern
   * [Inheritence](golang-pattern/inheritence.md)
 
