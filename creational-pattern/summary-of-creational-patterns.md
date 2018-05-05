@@ -41,8 +41,38 @@ func main() {
 
 #### Abstract Factory:
 
-```text
+```go
+package main
 
+type LineFactory interface {
+    NewLine() Line
+}
+
+type CircleFactory interface {
+    NewLine() Circle
+}
+
+type SquareFactory interface {
+    NewSquare() Square
+}
+
+type NormalLineFactory struct {}
+
+func (f NormalLineFactory) NewLine() Line {
+    return Line
+}
+
+func NormalCircleFactory struct {}
+
+func (f NormalCircleFactory) NewCircle() Circle {
+    return Circle
+}
+
+type NormalSquareFactory struct {}
+
+func (f NormalSquareFactory) NewSquare() Square {
+    return Square
+}
 ```
 
 
