@@ -9,6 +9,8 @@
   * [Singleton](creational-pattern/singleton.md)
   * [Summary of Creational Patterns](creational-pattern/summary-of-creational-patterns.md)
 * Structural
+  * Adapter  \(Wrapper\)
+  * Bridge
 * Behavior
 * Golang Pattern
   * [Inheritence](golang-pattern/inheritence.md)
