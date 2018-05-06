@@ -10,7 +10,7 @@
   * [Summary of Creational Patterns](creational-pattern/summary-of-creational-patterns.md)
 * Structural
   * [Adapter  \(Wrapper\)](structural/adapter-wrapper.md)
-  * [Bridge](structural/bridge.md)
+  * [Bridge \(Handle/Body\)](structural/bridge.md)
   * [Composite](structural/composite.md)
   * [Decorator](structural/decorator.md)
   * [Facade](structural/facade.md)

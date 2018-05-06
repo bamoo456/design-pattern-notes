@@ -1,6 +1,8 @@
-# Bridge
+# Bridge \(Handle/Body\)
 
 ## Introduction: {#introduction}
+
+Decouple an abstraction from its implementation so that the two can vary independently.
 
 ​
 
