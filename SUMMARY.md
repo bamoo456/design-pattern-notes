@@ -11,7 +11,7 @@
 * Structural
   * [Adapter  \(Wrapper\)](structural/adapter-wrapper.md)
   * [Bridge \(Handle/Body\)](structural/bridge.md)
-  * [Composite](structural/composite.md)
+  * [Composite \(Nested components\)](structural/composite.md)
   * [Decorator](structural/decorator.md)
   * [Facade](structural/facade.md)
   * [Flyweight](structural/flyweight.md)

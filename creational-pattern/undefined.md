@@ -7,7 +7,7 @@ Specify the kinds of objects to create using a prototypical instance, and create
 {% hint style="info" %}
 **Prototype** and **Abstract Factory** pattern are competing patterns in some ways. They can also be used together.
 
-Design with **Composite** or** Decorater**  Pattern can also benefit from the **Prototype** pattern
+Design with **Composite** or **Decorater**  Pattern can also benefit from the **Prototype** pattern
 {% endhint %}
 
 ## Motivation & When should use builder pattern
