@@ -12,7 +12,7 @@
   * [Adapter  \(Wrapper\)](structural/adapter-wrapper.md)
   * [Bridge \(Handle/Body\)](structural/bridge.md)
   * [Composite \(Nested components\)](structural/composite.md)
-  * [Decorator](structural/decorator.md)
+  * [Decorator \(Wrapper\)](structural/decorator.md)
   * [Facade](structural/facade.md)
   * [Flyweight](structural/flyweight.md)
   * [Proxy](structural/proxy.md)
