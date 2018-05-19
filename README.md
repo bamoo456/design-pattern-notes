@@ -10,3 +10,9 @@ Check the [https://georgechen.gitbook.io/design-pattern-notes/](https://georgech
 
 
 
+
+
+Some other reference:
+
+[https://sourcemaking.com/design\_patterns](https://sourcemaking.com/design_patterns)
+
