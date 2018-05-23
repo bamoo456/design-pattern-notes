@@ -16,7 +16,7 @@
   * [Facade](structural/facade.md)
   * [Flyweight](structural/flyweight.md)
   * [Proxy](structural/proxy.md)
-  * Summary of Structural Patterns
+  * [Summary of Structural Patterns](structural/summary-of-structural-patterns.md)
 * Behavior
   * [Chain of Responsibility](behavior/chain-of-responsibility.md)
   * [Command](behavior/command.md)
