@@ -20,6 +20,10 @@
 
 **NOTE**:
 
+## ​Related Patterns:
+
+​
+
 ​
 
 ​
