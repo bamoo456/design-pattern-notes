@@ -10,7 +10,7 @@
 
 ​A typical example is the document editor; a document may have tens of thousands of characters with different format style, and it's not ideal to make a compound character object for each single character.
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 * An application use a large number of objects.
 * Storage costs are high because of the sheer quantity of objects.
@@ -22,7 +22,7 @@
 
 ​
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 #### Flyweight
 
