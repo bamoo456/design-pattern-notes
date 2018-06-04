@@ -20,7 +20,7 @@ Objects in the chain need to share a same common interface.
 
 ​
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 #### Handler
 
