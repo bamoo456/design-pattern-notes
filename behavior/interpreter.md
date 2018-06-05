@@ -18,7 +18,7 @@ The Interpreter Pattern is widely used in the compilers implemented with object 
 
 ​
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 #### Abstract Expression:
 

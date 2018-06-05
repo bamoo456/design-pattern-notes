@@ -23,7 +23,7 @@
   * [Interpreter](behavior/interpreter.md)
   * [Iterator](behavior/iterator.md)
   * [Mediator](behavior/mediator.md)
-  * [Memento](behavior/memento.md)
+  * [Memento \(Token\)](behavior/memento.md)
   * [Observer](behavior/observer.md)
   * [State](behavior/state.md)
   * [Strategy](behavior/strategy.md)

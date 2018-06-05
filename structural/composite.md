@@ -12,7 +12,7 @@ Composite lets clients treat individual objects and compositions of objects unif
 
 ## Component: {#component}
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 #### Component
 
