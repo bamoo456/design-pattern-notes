@@ -147,8 +147,6 @@ func main() {
 
 **NOTE**:
 
-![](../.gitbook/assets/image%20%2810%29.png)
-
 #### Push based Implementation: _\(make observer less reusable\)_
 
 The subject sends the detailed information about the change in the _**Update\(\)**_
@@ -159,13 +157,13 @@ The subject sends the detailed information about the change in the _**Update\(\)
 
 ## ​Related Patterns:
 
-#### Mediator:  \(Change Manager\)
+#### Mediator:  
 
 By encapsulating complex update semantics, the Change Manager acts as Mediator between subjects and observers.
-
-![](../.gitbook/assets/image%20%2810%29.png)
 
 #### Singleton:
 
 The Change Manager​ may use the Singleton pattern make it unique and globally accessible
+
+![](../.gitbook/assets/image%20%2810%29.png)
 
