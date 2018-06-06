@@ -8,7 +8,7 @@
   * [Prototype](creational-pattern/undefined.md)
   * [Singleton](creational-pattern/singleton.md)
   * [Summary of Creational Patterns](creational-pattern/summary-of-creational-patterns.md)
-* Structural
+* [Structural](structural/README.md)
   * [Adapter  \(Wrapper\)](structural/adapter-wrapper.md)
   * [Bridge \(Handle/Body\)](structural/bridge.md)
   * [Composite \(Nested components\)](structural/composite.md)
@@ -17,19 +17,19 @@
   * [Flyweight](structural/flyweight.md)
   * [Proxy](structural/proxy.md)
   * [Summary of Structural Patterns](structural/summary-of-structural-patterns.md)
-* Behavior
+* [Behavior](behavior/README.md)
   * [Chain of Responsibility](behavior/chain-of-responsibility.md)
   * [Command](behavior/command.md)
   * [Interpreter](behavior/interpreter.md)
   * [Iterator](behavior/iterator.md)
   * [Mediator](behavior/mediator.md)
   * [Memento \(Token\)](behavior/memento.md)
-  * [Observer](behavior/observer.md)
+  * [Observer \(Dependents, Publish-Subscribe\)](behavior/observer.md)
   * [State](behavior/state.md)
   * [Strategy](behavior/strategy.md)
   * [Template Method](behavior/template-method.md)
   * [Visitor](behavior/visitor.md)
-  * Summary of Behavior Patterns
-* Golang Pattern
+  * [Summary of Behavior Patterns](behavior/summary-of-behavior-patterns.md)
+* [Golang Pattern](golang-pattern/README.md)
   * [Inheritence](golang-pattern/inheritence.md)
 

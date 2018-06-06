@@ -20,7 +20,7 @@ Only the originatorcan store and retrieve information from the memento—the **
 
 ​
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 ![](../.gitbook/assets/image.png)
 

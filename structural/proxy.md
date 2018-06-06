@@ -13,7 +13,7 @@ Provides a local representative for an object in a different address space.
 Creates expensive objects on demand.   
 `( e.g. A ImageProxy for client to do some image related operations without open image file)`
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 #### Protection Proxy:
 
