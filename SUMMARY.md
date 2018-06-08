@@ -25,7 +25,7 @@
   * [Mediator](behavior/mediator.md)
   * [Memento \(Token\)](behavior/memento.md)
   * [Observer \(Dependents, Publish-Subscribe\)](behavior/observer.md)
-  * [State](behavior/state.md)
+  * [State \(Object for States\)](behavior/state.md)
   * [Strategy](behavior/strategy.md)
   * [Template Method](behavior/template-method.md)
   * [Visitor](behavior/visitor.md)
