@@ -26,7 +26,7 @@
   * [Memento \(Token\)](behavior/memento.md)
   * [Observer \(Dependents, Publish-Subscribe\)](behavior/observer.md)
   * [State \(Object for States\)](behavior/state.md)
-  * [Strategy](behavior/strategy.md)
+  * [Strategy \(Policy\)](behavior/strategy.md)
   * [Template Method](behavior/template-method.md)
   * [Visitor](behavior/visitor.md)
   * [Summary of Behavior Patterns](behavior/summary-of-behavior-patterns.md)
