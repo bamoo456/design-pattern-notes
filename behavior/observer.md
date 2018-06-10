@@ -12,9 +12,9 @@
 
 ## Component:​ {#component}
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 #### Subject
 
@@ -165,5 +165,5 @@ By encapsulating complex update semantics, the Change Manager acts as Mediator b
 
 The Change Manager​ may use the Singleton pattern make it unique and globally accessible
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 

@@ -4,7 +4,7 @@
 
 Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 
-![](../.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 ## Motivation & When should use builder pattern {#motivation-and-when-should-use-builder-pattern}
 
@@ -14,7 +14,7 @@ Attach additional responsibilities to an object dynamically. Decorators provide 
 
 ## Component: {#component}
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 #### Component
 
