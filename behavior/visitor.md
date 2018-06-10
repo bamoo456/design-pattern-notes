@@ -43,7 +43,7 @@ NOTE:
 
 ## Code Example - Golang {#code-example-golang}
 
-![NOTE: Check the example code for the reference.](../.gitbook/assets/image%20%2817%29.png)
+![NOTE: Check the example code for the reference.](../.gitbook/assets/image%20%2820%29.png)
 
 ```go
 ​​package main

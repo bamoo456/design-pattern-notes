@@ -17,7 +17,7 @@ Allow an object to alter its behavior when its internal state changes. The objec
 
 ​
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 #### Context \(TCP Connection\)
 
