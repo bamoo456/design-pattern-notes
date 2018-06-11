@@ -32,4 +32,5 @@
   * [Summary of Behavior Patterns](behavior/summary-of-behavior-patterns.md)
 * [Golang Pattern](golang-pattern/README.md)
   * [Inheritence](golang-pattern/inheritence.md)
+  * [Temp](golang-pattern/temp.md)
 
