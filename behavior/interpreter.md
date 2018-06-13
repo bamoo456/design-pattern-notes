@@ -8,7 +8,7 @@ Given a language, define a representation for its grammar along with an interpre
 The Interpreter Pattern is widely used in the compilers implemented with object oriented languages.
 {% endhint %}
 
-## Motivation & When should use builder pattern {#motivation-and-when-should-use-builder-pattern}
+## Motivation & When should use the pattern
 
 * ​When there is a language need to be interpreted or parsed, and you can represent statements in the language as abstract syntax trees.
 * **The grammar is simple**; if the grammar becomes complex, it will cause the class hierarchy unmanageable.

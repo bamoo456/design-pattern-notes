@@ -20,7 +20,7 @@ Creates expensive objects on demand.
 Provide some access controls for the original object.  
 `(e.g. For some system objects, we may need to do some access controls before using them).`
 
-## Motivation & When should use builder pattern {#motivation-and-when-should-use-builder-pattern}
+## Motivation & When should use the pattern
 
 * ​You want to use any of _**remote proxy**_, _**virtual proxy**_ or _**protection proxy**_.
 * To provide a smart reference for doing below optimizations: - counting the number of references to the real objects, so that it can be freed automatically if there   are no more references. `(like javascript object reference)` - loading a persistent object into memory when it's first reference. - checking that a real object is locked before it is accessed. `(locked control)`

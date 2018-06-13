@@ -4,7 +4,7 @@
 
 Ensure a class only has one instance, and provide a global point of access to it.
 
-## Motivation & When should use builder pattern
+## Motivation & When should use the pattern
 
 * Some class can only has exactly one instance. \(e.g. Only one _filesystem_ in the _OS_\)
 * For this single instance, it must be accessible to clients from a well-known access point.

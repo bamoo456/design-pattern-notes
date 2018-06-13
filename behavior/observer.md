@@ -4,7 +4,7 @@
 
 ​Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
-## Motivation & When should use builder pattern {#motivation-and-when-should-use-builder-pattern}
+## Motivation & When should use the pattern
 
 * ​When an abstraction has two aspects, one dependent on the other. Encapsulating   these aspects in separate objects lets you vary and reuse them independently.
 * When a change to one object requires changing others, and you don't know   how many objects need to be changed.

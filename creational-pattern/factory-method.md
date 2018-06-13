@@ -10,7 +10,7 @@ Abstract factory Pattern is often implemented with factory methods.
 
 
 
-## Motivation & When should use builder pattern
+## Motivation & When should use the pattern
 
 * Frameworks use abstract classes to define and maintain relationships between objects.
 * The Factory Method encapsulates the knowledge of which Product subclass to create and moves this knowledge out of the framework.

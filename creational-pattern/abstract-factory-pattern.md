@@ -10,7 +10,7 @@ Abstract factory is for creating abstract interface, not concrete class.
 
 
 
-## Motivation & When should use builder pattern
+## Motivation & When should use the pattern
 
 * Clients don't know what is the concrete class they used from the **Abstract Factory.**
 * A system should be independent of how its products are created, composed, and represented.

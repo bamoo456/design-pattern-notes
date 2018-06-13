@@ -10,7 +10,7 @@ Specify the kinds of objects to create using a prototypical instance, and create
 Design with **Composite** or **Decorater**  Pattern can also benefit from the **Prototype** pattern
 {% endhint %}
 
-## Motivation & When should use builder pattern
+## Motivation & When should use the pattern
 
 * Use the Prototype pattern when a system should be independent of how its products are created, composed and represented.
 * When Class instance are instantiated at run-time. \(e.g. dynamic loading\)

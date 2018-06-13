@@ -9,7 +9,7 @@ Chain the receiving objects and pass the request along the chain until an object
 Objects in the chain need to share a same common interface.
 {% endhint %}
 
-## Motivation & When should use builder pattern {#motivation-and-when-should-use-builder-pattern}
+## Motivation & When should use the pattern
 
 * ​Use the Chain of Responsibility when more than one object may handle a request, and the handler isn't known a `priority`.
 * You want to issue a request to one of several objects without specify the receiver directly.

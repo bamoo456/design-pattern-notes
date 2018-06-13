@@ -6,7 +6,7 @@
 
 `Template methods are a fundamental technique for code reuse. They are particularly important in class libraries.`
 
-## Motivation & When should use builder pattern {#motivation-and-when-should-use-builder-pattern}
+## Motivation & When should use the pattern
 
 * ​To implement the invariant parts of an algorithm once and leave it up to subclasses to implement the behavior that can vary.
 * When common behavior among subclass should be factored and localized in a common class to avoid code duplication. \(Common class only implement the common logic, and subclass need to implement the vary parts.\)

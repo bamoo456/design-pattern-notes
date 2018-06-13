@@ -8,7 +8,7 @@ description: State Machine
 
 Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
 
-## Motivation & When should use builder pattern {#motivation-and-when-should-use-builder-pattern}
+## Motivation & When should use the pattern
 
 * ​An object's behavior depends on its state, and it must changes its behavior at runtime depending on that state.
 * Operations have large, multipart conditional statements depending on the object states.  _\(means if we use multiple if-else conditional statement to decide the object state and execute its behavior\)._

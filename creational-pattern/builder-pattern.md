@@ -10,7 +10,7 @@ Separate the construction of a complex object from its representation so that th
 
 
 
-## Motivation & When should use builder pattern
+## Motivation & When should use the pattern
 
 * Decouple the logic of representation and construction. 
 * If the algorithm for creating complex object should be independent, and the client does not need to know how a object should be created. 

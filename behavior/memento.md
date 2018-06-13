@@ -11,7 +11,7 @@ That is, the originator create a snapshot of its internal state, and we call the
 Only the originatorcan store and retrieve information from the memento—the **memento** is "opaque"to other objects.
 {% endhint %}
 
-## Motivation & When should use builder pattern {#motivation-and-when-should-use-builder-pattern}
+## Motivation & When should use the pattern
 
 * A snapshot of \(some portion of\) an object's state must be saved so that it can   be restored to that state later.
 * A direct interface to obtaining the state would expose implementation details  and break the object's encapsulation.

@@ -4,7 +4,7 @@
 
 Decouple an abstraction from its implementation so that the two can vary independently.
 
-## Motivation & When should use builder pattern {#motivation-and-when-should-use-builder-pattern}
+## Motivation & When should use the pattern
 
 * ​You want to avoid a permanent binding between an abstraction and its implementation.
 * _**\(if the implementation need to be switched at run-time\)**_ Both the abstractions and implementations should be extensible by subclassing.

@@ -6,7 +6,7 @@ Attach additional responsibilities to an object dynamically. Decorators provide 
 
 ![](../.gitbook/assets/image%20%2825%29.png)
 
-## Motivation & When should use builder pattern {#motivation-and-when-should-use-builder-pattern}
+## Motivation & When should use the pattern
 
 * ​Add responsibilities to individual objects dynamically and transparently.
 * You don't want to use subclassing for extending target object's functionality.

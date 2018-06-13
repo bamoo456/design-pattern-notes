@@ -4,7 +4,7 @@
 
 ​Define an object that encapsulate show a set o f objects interact Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and itlets you vary their interaction independently.
 
-## Motivation & When should use builder pattern {#motivation-and-when-should-use-builder-pattern}
+## Motivation & When should use the pattern
 
 * A set of objects communicate in well-defined but complex ways.The resulting  interdependencies are unstructured and difficult to understand.
 * Reusing an object is difficult because it refers to and communicates with many   other objects.

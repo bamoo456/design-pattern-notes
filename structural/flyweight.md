@@ -6,7 +6,7 @@
 
 > The Flyweight Pattern describe how to share objects to allow their use at fine granularities without prohibitive cost.
 
-## Motivation & When should use builder pattern {#motivation-and-when-should-use-builder-pattern}
+## Motivation & When should use the pattern
 
 ​A typical example is the document editor; a document may have tens of thousands of characters with different format style, and it's not ideal to make a compound character object for each single character.
 

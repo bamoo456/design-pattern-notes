@@ -11,7 +11,7 @@ Convert the interface of a class into another interface clients expect.  Adapter
 
 
 
-## Motivation & When should use builder pattern
+## Motivation & When should use the pattern
 
 * You want to use an existing class, and its interface does not match the one you need.
 * You want to create a reusable class that cooperates with unrelated or unforeseen classes.

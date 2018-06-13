@@ -4,7 +4,7 @@
 
 ​Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher interface that makes the subsystem easier to use.
 
-## Motivation & When should use builder pattern {#motivation-and-when-should-use-builder-pattern}
+## Motivation & When should use the pattern
 
 * ​You want to provide a simple interface to a complex subsystem. Subsystem often get more complex as they evolve.
 * Introduce a facade to decouple the subsystem from clients and other subsystems, thereby promoting subsystem independence and portability.

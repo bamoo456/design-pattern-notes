@@ -4,7 +4,7 @@
 
 Provide a way to access the element s of an aggregate object sequentially withoutexposing its underlying representation.
 
-## Motivation & When should use builder pattern {#motivation-and-when-should-use-builder-pattern}
+## Motivation & When should use the pattern
 
 * ​To access an aggregate object's contents without exposing its internal representation.
 * To support multiple traversals of aggregate objects.

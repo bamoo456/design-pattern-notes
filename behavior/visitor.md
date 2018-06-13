@@ -4,7 +4,7 @@
 
 Represent an operation to be performed on the elements of an object structure.Visitor lets you define a new operation without changing the classes of the elements on which it operates.​
 
-## Motivation & When should use builder pattern {#motivation-and-when-should-use-builder-pattern}
+## Motivation & When should use the pattern
 
 * ​A object structure contains many classes of objects with differing interfaces, and you want to perform operations on these objects that depend on their concrete classes. \(e.g. A **Machine Object** may contain **Disk, RAM, CPU ..etc**, you want to do something on those concrete object\)
 * Many distinct and unrelated operations need to be performed on objects in an object structure, and you want to avoid _**polluting**_ their classes with these operations. \(Without _**Visitor Pattern**_, we may need to add extra operations on those concrete element of the object structure\)

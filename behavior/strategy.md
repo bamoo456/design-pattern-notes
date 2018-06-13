@@ -4,7 +4,7 @@
 
 ​Define a family of algorithm, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 
-## Motivation & When should use builder pattern {#motivation-and-when-should-use-builder-pattern}
+## Motivation & When should use the pattern
 
 * ​Many related classes differ only in their behavior. Strategies provide a way to configure a class with one of many behaviors.
 * You need different variants of an algorithm. \(e.g. based on different speed/memory trade-off, we may consider to use different algorithm at runtime\)

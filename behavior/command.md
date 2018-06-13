@@ -4,7 +4,7 @@
 
 ​Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations
 
-## Motivation & When should use builder pattern {#motivation-and-when-should-use-builder-pattern}
+## Motivation & When should use the pattern
 
 * ​Parameterize objects by an action to perform. \(callback\)
 * Specify, queue, and execute requests at different times.
