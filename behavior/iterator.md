@@ -2,7 +2,7 @@
 
 ## Introduction: {#introduction}
 
-Provide a way to access the element s of an aggregate object sequentially withoutexposing its underlying representation.
+Provide a way to access the element s of an aggregate object sequentially without exposing its underlying representation.
 
 ## Motivation & When should use the pattern
 
