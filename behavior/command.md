@@ -114,8 +114,10 @@ func main() {
 		close(execCh)
 	}()
 
+	// invoke the commands
 	go func() {
 		defer func() { done <- struct{}{} }()
+		// does not need to know the detail of current command
 		for cmd := range execCh {
 			cmd.Execute()
 		}
