@@ -169,9 +169,11 @@ func main() {
 
 Iterators are often applied to recursive structures such as Composites.
 
-#### Factor yMethod
+#### Factory Method
 
-Polymorphic iterators rely o n factory methods to instantiatethe appropriate Iterator subclass
+Polymorphic iterators rely on factory methods to instantiatethe appropriate Iterator subclass.
+
+`NOTE: Use Factory Method to create suitable iterator (integer/string/float...) for different use cases.`
 
 #### Memento
 
